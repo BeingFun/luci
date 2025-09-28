@@ -78,6 +78,8 @@ return baseclass.extend({
 			);
 		}
 
+		let help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
+
 		var fields = [
 			_('Hostname'),         boardinfo.hostname,
 			_('Model'),            boardinfo.model + cpubench.cpubench,
@@ -92,7 +94,8 @@ return baseclass.extend({
 				systeminfo.load[1] / 65535.0,
 				systeminfo.load[2] / 65535.0
 			) : null,
-			_('CPU usage (%)'),    cpuusage.cpuusage
+			_('CPU usage (%)'),    cpuusage.cpuusage,
+			_('Help Info'),    help_info
 		];
 
 		if (tempinfo.tempinfo) {
