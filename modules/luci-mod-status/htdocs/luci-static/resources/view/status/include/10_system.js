@@ -78,7 +78,7 @@ return baseclass.extend({
 			);
 		}
 
-		let help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
+		var help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
 
 		var fields = [
 			_('Hostname'),         boardinfo.hostname,
