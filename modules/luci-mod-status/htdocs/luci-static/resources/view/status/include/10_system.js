@@ -78,7 +78,7 @@ return baseclass.extend({
 			);
 		}
 
-		var help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
+		// var help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
 		var hostname = 'hahaha';
 		
 
@@ -96,8 +96,8 @@ return baseclass.extend({
 				systeminfo.load[1] / 65535.0,
 				systeminfo.load[2] / 65535.0
 			) : null,
-			_('CPU usage (%)'),    cpuusage.cpuusage,
-			_('Help Info'),    help_info
+			_('CPU usage (%)'),    cpuusage.cpuusage
+			// _('Help Info'),    help_info
 		];
 
 		if (tempinfo.tempinfo) {
