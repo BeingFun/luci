@@ -80,6 +80,7 @@ return baseclass.extend({
 
 		// var help_info = '<a href="https://github.com/BeingFun" target="_blank">GitHub: BeingFun</a>';
 		var hostname = 'hahaha';
+		datestr = '6666666666';
 		
 
 		var fields = [
