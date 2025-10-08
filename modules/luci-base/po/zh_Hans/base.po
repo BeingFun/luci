@@ -3940,6 +3940,10 @@ msgstr "负载"
 msgid "Load Average"
 msgstr "平均负载"
 
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:66
+msgid "Help Info"
+msgstr "帮助"
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2959
 msgid "Loading directory contents…"
 msgstr "正在载入目录内容…"
