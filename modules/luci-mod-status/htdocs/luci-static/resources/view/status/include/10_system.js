@@ -78,11 +78,9 @@ return baseclass.extend({
 			);
 		}
 
-		datestr = "66666";
-		var help_info = 'hhhhhhh';
-
+		var help_info = 'QQ:723789738 or <a href="https://t.me/zimeiya" target="_blank">Telegram</a>';
 		var fields = [
-			_('Hostname'),         'lldddd',
+			_('Hostname'),         'ImmortalWrt',
 			_('Model'),            boardinfo.model + cpubench.cpubench,
 			_('Architecture'),     cpuinfo.cpuinfo || boardinfo.system,
 			_('Target Platform'),  (L.isObject(boardinfo.release) ? boardinfo.release.target : ''),
