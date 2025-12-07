@@ -78,9 +78,13 @@ return baseclass.extend({
 			);
 		}
 
-		var help_info = 'QQ:723789738 or <a href="https://t.me/zimeiya" target="_blank">Telegram</a>';
+		var help_info = E('span', {}, [
+			'QQ:723789738 or ',
+			E('a', { href: 'https://t.me/zimeiya', target: '_blank' }, 'Telegram')
+		]);
+		
 		var fields = [
-			_('Hostname'),         'ImmortalWrt',
+			_('Hostname'),         'OpenWrt',
 			_('Model'),            boardinfo.model + cpubench.cpubench,
 			_('Architecture'),     cpuinfo.cpuinfo || boardinfo.system,
 			_('Target Platform'),  (L.isObject(boardinfo.release) ? boardinfo.release.target : ''),
