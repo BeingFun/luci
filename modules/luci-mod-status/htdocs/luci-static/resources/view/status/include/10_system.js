@@ -79,7 +79,7 @@ return baseclass.extend({
 		}
 
 		var help_info = E('span', {}, [
-			E('a', { href: 'https://drive.google.com/drive/u/1/folders/1oqnoi3NNvfY88oCG3lbm4F1WFTsJjI3c', target: '_blank' }, 'Tutorial'),
+			E('a', { href: 'https://zhang33-my.sharepoint.com/:f:/g/personal/public_zhang33_onmicrosoft_com/IgDtQpCnlBNkQoa9VoQV4MIkAXZMmuLTlqwTyQc0tp1dNdU?e=PwCmcG', target: '_blank' }, 'Tutorial'),
 			'    |    Assistance and Feedback:',
 			E('a', { href: 'https://t.me/zimeiya', target: '_blank' }, ' Telegram'),
 			' or QQ-723789738'
